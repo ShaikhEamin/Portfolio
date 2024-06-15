@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaikh Eamin's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        section .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #home {
+            background: #f4f4f4;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        #home .content {
+            text-align: center;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="content">
+            <h1>Welcome to Shaikh Eamin's Portfolio</h1>
+            <p>Electrical and Electronic Engineering graduate with expertise in circuit design, power electronics, and renewable energy.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>As an Electrical and Electronic Engineering graduate, I seek a rewarding role utilizing my electrical design, circuit design, and power electronics skills. I have a strong foundation in analog circuits, digital circuits, microelectronics, electromagnetic field theory, control systems, and electronic systems. My expertise includes electrical safety, testing and troubleshooting, prototyping, PCB design, and signal processing. I am passionate about renewable energy, robotics, and automation. My programming proficiency, technical documentation, project management, and team collaboration abilities make me a valuable asset. With strong problem-solving, analytical thinking, communication skills, time management, and attention to detail, I am eager to contribute to organisational growth in a dynamic environment that fosters creativity and continuous improvement.</p>
+            
+            <h3>Skills</h3>
+            <ul>
+                <li>Power Systems: Power electronics, electric power distribution, renewable energy.</li>
+                <li>Signal Processing: Signal processing, electromagnetic field theory.</li>
+                <li>Programming: C, C++, Python, MATLAB.</li>
+                <li>Project Management: Project planning, Problem-solving, Analytical thinking, Technical documentation, Time management.</li>
+                <li>Software Proficiency: Microsoft Office, CAD, Circuit simulation software (PSPICE, Multisim), MATLAB, Simulink.</li>
+                <li>Interpersonal Skills: Communication, Team collaboration, Critical thinking, Decision-making, Negotiation, Networking.</li>
+            </ul>
+            
+            <h3>Education</h3>
+            <ul>
+                <li>B.Sc EEE, American International University Bangladesh, CGPA: 3.28 out of 4 (2019 – 2023)</li>
+                <li>HSC, Chandpur College, Khulna, GPA: 3.58 out of 5 (2018)</li>
+                <li>SSC, Khulna Zilla School, Khulna, GPA: 3.83 out of 5 (2007 – 2015)</li>
+            </ul>
+            
+            <h3>Languages</h3>
+            <ul>
+                <li>English: Advanced C1</li>
+                <li>German: Basic working proficiency</li>
+                <li>Bengali: Native language</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="content">
+            <h2>Projects</h2>
+            <h3>Piezoelectric Generator-Based Transformer Power Theft Protection System</h3>
+            <p>Developed an IoT-based system with piezoelectric road sensors for traffic detection and intelligent control of street lights, enhancing energy efficiency. Integrated monitoring of electrical components for unauthorized tampering, triggering alerts to prevent theft, and ensuring continuous lighting services.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="content">
+            <h2>Experience</h2>
+            <h3>Trainee Engineer, Dhaka Electric Supply Company Limited (DESCO)</h3>
+            <ul>
+                <li>Practical Application of Theoretical Knowledge</li>
+                <li>Power Distribution and Transmission</li>
+                <li>Grid Management and Maintenance</li>
+                <li>Energy Efficiency and Conservation</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="publications">
+        <div class="content">
+            <h2>Publications</h2>
+            <h3>A Novel Approach for Automatic Extraction of Nutritional Information from Packaged Food Labels Using OCR Technology</h3>
+            <p>We utilized optical character recognition (OCR) technology to automatically extract nutritional information from packaged food labels, aiding consumers in making informed dietary choices.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:Eamineee19@gmail.com">Eamineee19@gmail.com</a></p>
+            <p>Phone: +8801980126253</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/shaikh-eamin/">Shaikh Eamin</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shaikh Eamin. All rights reserved.</p>
+    </footer>
+</body>
+</html>
